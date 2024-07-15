@@ -8,3 +8,59 @@
     font-style: normal;
   }
   
+
+  /* shared styles */
+.text-grey{
+    color: #424242;
+}
+.text-light-gray{
+    color: #727272;
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.bg-light{
+    background-color: rgba(255, 144, 24, 0.1);
+}
+.btn{
+    background-color: aqua;
+    color: azure;
+    width: 80px;
+    height: 40px;
+}
+  /* header styles */
+
+  /* navbar related styles */
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-link{
+    display: flex;
+    text-decoration: none;
+    font-weight: 500;
+  }
+    .nav-item{
+        list-style: none;
+        margin-right: 30px;
+    }
+    .navbar , .banner{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .banner-content{
+        max-width: 850px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .banner-title{
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    .banner-img{
+        width: 100%;
+    }
